@@ -1,0 +1,7 @@
+ROTS                    Reproducibility-Optimized Test Statistic (ROTS)
+affySpikeIn             Gene expression data from the Affymetrix
+                        spike-in experiment
+plot.ROTS               Plotting of a ROTS object
+summary.ROTS            Summary of a ROTS object
+upsSpikeIn              Protein expression data from the CPTAC
+                        Technology Assessment (Study 6)

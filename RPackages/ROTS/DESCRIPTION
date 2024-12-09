@@ -1,0 +1,26 @@
+Package: ROTS
+Type: Package
+Title: Reproducibility-Optimized Test Statistic
+Version: 1.28.0
+Author: Fatemeh Seyednasrollah, Tomi Suomi, Laura L. Elo
+Maintainer: Tomi Suomi <tomi.suomi@utu.fi>
+Description: Calculates the Reproducibility-Optimized Test Statistic
+        (ROTS) for differential testing in omics data.
+biocViews: Software, GeneExpression, DifferentialExpression,
+        Microarray, RNASeq, Proteomics, ImmunoOncology
+License: GPL (>= 2)
+LazyData: yes
+LinkingTo: Rcpp
+Imports: Rcpp, stats, Biobase, methods
+Suggests: testthat
+Depends: R (>= 3.3)
+NeedsCompilation: yes
+git_url: https://git.bioconductor.org/packages/ROTS
+git_branch: RELEASE_3_17
+git_last_commit: 032cb97
+git_last_commit_date: 2023-04-25
+Date/Publication: 2023-04-25
+Packaged: 2023-04-25 22:32:30 UTC; biocbuild
+Repository: RSPM
+Encoding: UTF-8
+Built: R 4.3.0; x86_64-pc-linux-gnu; 2024-12-09 14:09:20 UTC; unix

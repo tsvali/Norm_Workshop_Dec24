@@ -1,0 +1,14 @@
+CHANGES IN ROTS 1.27.1
+- Added support for survival analysis
+
+CHANGES IN ROTS 1.6.0
+- Added support for testing multiple groups
+- Bug fixes
+
+CHANGES IN ROTS 1.0.0
+- Added log fold change in output.
+- Added default plotting for ROTS class objects
+- Added support for paired tests
+- Updated vignette
+- Bug fixes
+- Modified for Bioconductor release

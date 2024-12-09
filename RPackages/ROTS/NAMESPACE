@@ -1,0 +1,14 @@
+## Export functions from the ROTS-package
+export(ROTS)
+S3method(print, ROTS)
+S3method(summary, ROTS)
+S3method(plot, ROTS)
+
+## Load  shared library ROTS.so/dll
+useDynLib(ROTS)
+importFrom(Rcpp, evalCpp)
+importFrom(stats, median, na.omit, heatmap, loess.smooth, prcomp)
+importFrom(utils, setTxtProgressBar, txtProgressBar)
+importFrom(graphics, plot, points, abline, legend, lines, text, hist, par)
+importFrom(grDevices, colorRampPalette)
+importFrom(methods, is)
